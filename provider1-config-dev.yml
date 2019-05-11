@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/HeartMirror_201904271407?useSSL=true&verifyServerCertificate=false&characterEncoding=UTF-8
     username: root
-    password: Wanlingyun1234.
+    password: wscqtlulu
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
