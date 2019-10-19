@@ -29,4 +29,13 @@ mybatis:
   typeAliasesPackage: com.springcloud.consumer1.pojo
   mapperLocations: classpath:mapper/*.xml
 
+management:
+  endpoints:
+    web:
+      exposure:
+        #此处控制的是不开放哪些端点
+        #exclude: shutdown,threaddump
+        #此处控制的是开放哪些端点，如果需要开启少数端点可以这样配置：health,info。如果开启多个则使用*号开启除了exclude的端点
+        include: "health,info,refresh,hystrix.stream"
+
 constant: constant3
