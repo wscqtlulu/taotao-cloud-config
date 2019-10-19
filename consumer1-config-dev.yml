@@ -29,4 +29,4 @@ mybatis:
   typeAliasesPackage: com.springcloud.consumer1.pojo
   mapperLocations: classpath:mapper/*.xml
 
-constant: constant1
+constant: constant2
